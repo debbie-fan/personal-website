@@ -1,15 +1,20 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+// import nails from './nails.jpg';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
+          {/* <img src={nails} className="App-nails" alt="nails"/> */}
           <img src={logo} className="App-logo" alt="logo" />
+          <h1>
+            Hello, I'm Debbie!
+          </h1>
           <p>
-            Editt <code>src/App.js</code> and save to reload.
+            Welcome to my personal website.
           </p>
           <a
             className="App-link"
